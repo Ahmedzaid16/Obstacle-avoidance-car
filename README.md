@@ -1,6 +1,6 @@
 <h1>Obsacle Avoidane Car</h1>
 The algorithm is desined to avoide any obstacle by rotaiting to left or right based on the free distane <br>
-the car will follow the obstacle till it ends up then rotate to the original direction <br>
+the car will follow the obstacle till it ends then rotate to the original direction <br>
 then continue to move forward<br>
 it's originaly designed to path from this certain type of obstacles: <br>
 <br>
