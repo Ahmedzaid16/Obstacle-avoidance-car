@@ -40,6 +40,14 @@ but in general the algorithm will work with any finite type of obstacle in anote
    - If the distance to the left is greater than the distance to the right:
      - Perform a different set of movements to turn left.
   </pre>
+<h2>Testing Car </h2>
+<br>
+
+
+<video src='https://github.com/Ahmedzaid16/Obstacle-avoidance-car/assets/84353686/4bd2df84-35ef-4636-8fdd-949f8b613ce6' controls muted autoplay loop></video>
+
+
+<br>
 <h2>Future Work</h2>
 Adding an ir obstacle sensor in front of the car will certinaly solve the problem of following infinite obstacle <br>
 simply use ir sensor as interrupt to change the car direction in case of detectig another obstacle in front of car
