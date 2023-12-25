@@ -4,8 +4,7 @@ the car will follow the obstacle till it ends up then rotate to the original dir
 then continue to move forward<br>
 it's originaly designed to path from this certain type of obstacles: <br>
 <br>
-![mazejpg](https://github.com/Ahmedzaid16/Obstacle-avoidance-car/assets/84353686/820fa2a0-cba5-4131-93bc-6b0bdf6a4db6)
-
+<img src = 'https://github.com/Ahmedzaid16/Obstacle-avoidance-car/assets/84353686/820fa2a0-cba5-4131-93bc-6b0bdf6a4db6' alt="Example Image"">
 <br>
 but in general the algorithm will work with any finite type of obstacle in anoter words the obstacle must have an end <br>
 <h2> Explaining Algorithm</h2>
