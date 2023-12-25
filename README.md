@@ -43,8 +43,7 @@ but in general the algorithm will work with any finite type of obstacle in anote
 <h2>Testing Car </h2>
 <br>
 
-
-<video src='https://github.com/Ahmedzaid16/Obstacle-avoidance-car/assets/84353686/4bd2df84-35ef-4636-8fdd-949f8b613ce6' controls muted autoplay loop></video>
+<video src='https://github.com/Ahmedzaid16/Obstacle-avoidance-car/assets/84353686/23d2c8df-00b2-40cc-93de-e0875f37df02' muted autoplay loop></video>
 
 
 <br>
