@@ -1,4 +1,4 @@
-<h1>Obsacle Avoidane Car</h1>
+<h1>Obstacle Avoidance Car</h1>
 The algorithm is desined to avoide any obstacle by rotaiting to left or right based on the free distane <br>
 the car will follow the obstacle till it ends then rotate to the original direction <br>
 then continue to move forward<br>
