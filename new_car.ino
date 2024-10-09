@@ -124,7 +124,7 @@ int left_distance; // Variable to hold the distance
   //delay(600);
   distance = calculate_distance(); // Calculate the distance
   Serial.println(distance); // Print the distance
-  while(distance >=20)
+  while(distance >=40)
   {
     Motors('b');
     distance = calculate_distance();
@@ -157,7 +157,7 @@ int left_distance; // Variable to hold the distance
     Serial.println(distance);
     Motors('b');
     delay(300);
-    while(distance<20 )
+    while(distance<50 )
     {
       Motors('b');
       distance = calculate_distance();
@@ -181,7 +181,7 @@ int left_distance; // Variable to hold the distance
     Serial.println(distance);
     Motors('b');
     delay(300);
-    while(distance<20)
+    while(distance<50)
     {
       Motors('b');
       distance = calculate_distance();
@@ -202,6 +202,5 @@ int left_distance; // Variable to hold the distance
   delayMicroseconds(10); // for 10 microseconds
   digitalWrite(TRIG_PIN, LOW); // Set the TRIG_PIN to LOW
   t = pulseIn(ECHO_PIN, HIGH); // Return the length of pulse in microseconds
-  return (0
-); // Return the distance (D = 0.5T * S)
+  return (0.5 * t * 0.0343); // Return the distance (D = 0.5T * S)
 }
